@@ -15,6 +15,8 @@
   - [读法](#读法)
 - [PCB绘制流程，新建工程](#pcb绘制流程新建工程)
 - [建库](#建库)
+  - [如何画pcb库](#如何画pcb库)
+  - [外部导入pcb库](#外部导入pcb库)
 - [原理图](#原理图)
 - [PCB图](#pcb图)
 
@@ -24,7 +26,7 @@
 # PCB设计
 ## PCB结构入门
 ![alt text](./image_ad/image.png)
-**阻焊层**
+**阻焊层** 
 **丝印层**
  GERBER文件 光绘文件
 **钻孔**
@@ -83,19 +85,28 @@ c（通常） i（工业） a（汽车）
 ![alt text](./image_ad/image-11.png)
 ![alt text](./image_ad/image-12.png)
 ![alt text](./image_ad/image-13.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
 # 建库
+![alt text](image.png)
+先建pcb库，数量少
+## 如何画pcb库
+![alt text](image-1.png)
+pcb库 顶层 底层 机械层 丝印层
+1. 顶层画pads
+![alt text](image-2.png)
+- ctrl+m，测量
+- shift+c，清楚
+- Q换单位
+- G换网格长度
+![alt text](image-3.png)
+2. 丝印层画外框
+按住ctrl再拉
+3. 机械层画3d外形
+数字键2，二维
+数字键3，三维
+shift+右键，3d视图中旋转
+## 外部导入pcb库
+
+
+
 # 原理图
 # PCB图
