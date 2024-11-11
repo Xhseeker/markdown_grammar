@@ -28,6 +28,11 @@
   - [检查原理图](#检查原理图)
   - [网表](#网表)
 - [PCB图](#pcb图)
+  - [绘图概览和原理图导入](#绘图概览和原理图导入)
+  - [规则导入和叠层设计](#规则导入和叠层设计)
+  - [器件布局](#器件布局)
+  - [布线和铺铜](#布线和铺铜)
+  - [规则检查](#规则检查)
 
 <!-- /code_chunk_output -->
 
@@ -153,29 +158,70 @@ USB_N,差分线负端
 - 差分线标识符
 ![alt text](./image_ad1/image-17.png)
 
-
-
 ## 连接元器件
 ![alt text](./image_ad1/image-18.png)
 容值越小的电容，应该离管脚越近
 容值越大的电容
 
-
 ## 元器件编号
 ![alt text](./image_ad1/image-19.png)
-
 
 ## 检查原理图
 - 只有一个引脚
 - 悬空的输入端
+从原理图库向原理图拖动时，按x为左右镜像，按y为上下镜像
+（逻辑ghub配置，如果存储在内存中，配置完之后，要更新一下配置）
 ## 网表
-
-
-
-
-
-
-
-
+![alt text](image.png)
+![alt text](image-1.png)
+生成了
+![alt text](image-2.png)
 
 # PCB图
+## 绘图概览和原理图导入
+![alt text](image-3.png)
+![alt text](image-4.png)
+- 检查是否有错误
+![alt text](image-5.png)
+- 如何更新原理图
+![alt text](image-6.png)
+- 让b站显示在最顶层
+![alt text](image-7.png)
+可以直接删掉红色底板rom
+
+## 规则导入和叠层设计
+![alt text](image-8.png)
+![alt text](image-9.png)
+![alt text](image-10.png)
+![alt text](image-11.png)
+![alt text](image-12.png)
+可以导出规则，也可以导入规则
+![alt text](image-13.png)
+分别是
+- 顶层丝印
+- 阻焊层
+- 信号层
+- 电介质层
+- 信号层
+- 阻焊层
+- 顶层丝印
+增加层数
+![alt text](image-14.png)
+
+## 器件布局
+shift+空格，不走直线走折线
+L快捷键![alt text](image-15.png)
+![alt text](image-16.png)
+
+## 布线和铺铜
+- 先布模拟信号线 受干扰
+- 高速信号线 受干扰 干扰别人
+优先 模拟和高速
+差分线  速度12M
+
+高亮连接到某个引脚的线，shift+点击这个引脚
+
+tgm铺铜管理
+tga重新铺铜
+
+## 规则检查
