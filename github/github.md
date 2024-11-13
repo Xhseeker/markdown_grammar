@@ -28,17 +28,17 @@ git-scm.com/download/win
 
 ---
 ### 配置
-![alt text](./image/image.png){width="600px" hight="300px"}
+![alt text](./image/image.png){width="600px"}
 
-![alt text](./image/image-1.png){width="600px" hight="300px"}
+![alt text](./image/image-1.png){width="600px"}
 
-![alt text](./image/image-2.png){width="600px" hight="100px"}
+![alt text](./image/image-2.png){width="600px"}
 
-![alt text](./image/image-3.png){width="600px" hight="100px"}
+![alt text](./image/image-3.png){width="600px"}
 
 从github上下载文件 **git clone** 
 
-![alt text](./image/image-4.png){width="600px" hight="300px"}
+![alt text](./image/image-4.png){width="600px"}
 
 ![alt text](./image/image-5.png){width= "600px"} 
 
