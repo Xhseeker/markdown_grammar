@@ -224,4 +224,19 @@ L快捷键![alt text](image-15.png)
 tgm铺铜管理
 tga重新铺铜
 
+- 导线宽度修改
+![alt text](image-21.png)
+虽然485是等长线，但是它速度很低，只是两根线长度别差太多就可以
+按*切换层,画过孔
+
 ## 规则检查
+![alt text](image-22.png)
+
+把板框画在机械层
+若有故障，重新铺一遍铜
+
+法1 ![alt text](image-23.png)
+按3 按1 进入机械视图
+法2 先关闭所有层，只留下 机械层 L，all layers off/on
+![alt text](image-25.png)
+![alt text](image-24.png)
