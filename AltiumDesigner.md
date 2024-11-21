@@ -52,7 +52,7 @@
 ## pcb元素
 
 1. 元件，元件库，pcblib
-2. 丝印框（Pads焊盘）
+2. 丝印框(Pads焊盘)
 3. 3d
 4. 布局布线 前后板连接 信号走向
 - 走线等长，差分线长度相等
@@ -63,7 +63,7 @@
 1. 元器件
 2. 连线
 3. 网名netlabel
-- （注释 示意）
+- (注释 示意)
 ## 设计流程
 pcbdoc 或者gerber 器件购买 焊接贴片 调试
 ![alt text](./image_ad/image-3.png)
@@ -76,8 +76,8 @@ pcbdoc 或者gerber 器件购买 焊接贴片 调试
 ## 举例AD9945
 精读general description，把每个词语都弄懂
 了解指标
-精读 pin function description（画好之后查一遍，再查一遍）
-精读寄存器，接口协议图（SPI总线）
+精读 pin function description(画好之后查一遍，再查一遍)
+精读寄存器，接口协议图(SPI总线)
 ![alt text](./image_ad/image-5.png)
 电路描述
 器件时序
@@ -85,7 +85,7 @@ pcbdoc 或者gerber 器件购买 焊接贴片 调试
 outline dimensions 封装信息
 ordering guide 
 ![alt text](./image_ad/image-6.png)
-c（通常） i（工业） a（汽车）
+c(通常) i(工业) a(汽车)
 
 ## 读法
 ![alt text](./image_ad/image-7.png)
@@ -135,8 +135,8 @@ shift+右键，3d视图中旋转
 1. RO，接收器输出引脚
 ![alt text](./image_ad1/image-9.png)
 2. /RE通常为输入引脚，它接受来自外部的信号来控制是否启用读取操作。
-当/RE引脚为低电平（即0）时，芯片的读取功能被激活，允许芯片输出数据到数据总线上。
-当/RE引脚为高电平（即1）时，读取功能被禁用，芯片不会输出数据。
+当/RE引脚为低电平(即0)时，芯片的读取功能被激活，允许芯片输出数据到数据总线上。
+当/RE引脚为高电平(即1)时，读取功能被禁用，芯片不会输出数据。
 数据输出使能
 ![alt text](./image_ad1/image-10.png)
 3. DE，数据输出使能
@@ -170,7 +170,7 @@ USB_N,差分线负端
 - 只有一个引脚
 - 悬空的输入端
 从原理图库向原理图拖动时，按x为左右镜像，按y为上下镜像
-（逻辑ghub配置，如果存储在内存中，配置完之后，要更新一下配置）
+(逻辑ghub配置，如果存储在内存中，配置完之后，要更新一下配置)
 ## 网表
 ![alt text](image.png)
 ![alt text](image-1.png)

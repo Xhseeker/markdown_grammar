@@ -3,7 +3,7 @@ This is common markdown grammar.
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
 <!-- code_chunk_output -->
-Table of Contents”（目录）
+Table of Contents”(目录)
 - [标题](#标题)
   - [二级](#二级)
     - [三级](#三级)
